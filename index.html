@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game v2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="splash-screen">
+    <span>Start Game</span>
+  </div>
+
+  <div class="finished-screen">
+    <div class="window finished">
+      <p>
+        Congratulations!<br>
+        You Have Matched All Cards<br>
+      </p>
+      <button>Ok!</button>
+    </div>
+    <div class="window ask-user">
+      <h1>Play Again ?</h1>
+      <div class="ask">
+        <span class="btn yes">Yes</span>
+        <span class="btn no">No</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="app">
+
+    <div class="info-container">
+
+      <div class="name">
+        Hello: <span></span>
+      </div>
+      <div class="tries">
+        Wrong Tries: <span>0</span>
+      </div>
+
+    </div>
+
+    <div class="blocks-container">
+
+      <div class="block" data-img="anime-zero">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_0.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-zero">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_0.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-one">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_1.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-one">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_1.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-two">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_2.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-two">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-three">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_3.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-three">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_3.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-four">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_4.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-four">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_4.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-five">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_5.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-five">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_5.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-six">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_6.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-six">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_6.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-seven">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_7.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-seven">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_7.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-eight">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_8.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-eight">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_8.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="block" data-img="anime-nine">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_9.jpg" alt="">
+        </div>
+      </div>
+      <div class="block" data-img="anime-nine">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/anime_9.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <audio id="wrong" src="audio/loose.mp3"></audio>
+  <audio id="right" src="audio/success.mp3"></audio>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
